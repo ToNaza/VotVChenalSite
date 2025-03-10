@@ -217,8 +217,9 @@ footer{
     footer{
         width: 100%;
         background-color: black;
-        position: absolute;
+        position: relative;
         bottom: 0;
+        display: flex;
         color: white;
 
         p{
