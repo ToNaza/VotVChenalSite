@@ -145,7 +145,7 @@ footer{
     footer{
         width: 100%;
         background-color: black;
-        position: absolute;
+        position: relative;
         bottom: 0;
         display: flex;
         color: white;
@@ -155,7 +155,7 @@ footer{
         }
     
         div{
-            margin-left: 15px;
+            margin-left: 10px;
             margin-top: 5px;
     
             button{
