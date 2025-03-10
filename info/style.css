@@ -5,10 +5,10 @@
 }
 
 body {
-    height: 100vh; /* Висота на весь екран */
-    background: rgb(0,2,47);
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
     background: linear-gradient(142deg, rgba(0,2,47,1) 0%, rgba(56,56,56,1) 100%);
-    margin: 0; /* Забирає зайві відступи */
 }
 
 
