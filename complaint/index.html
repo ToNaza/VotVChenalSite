@@ -4,12 +4,12 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <link rel="icon" href="./media/Ava.jpg">
-    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="../media/Ava.jpg">
+    <link rel="stylesheet" href="./style.css">
     <link href="https://fonts.googleapis.com/css2?family=Jura:wght@400;700&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Nova+Square&display=swap" rel="stylesheet">
 
-
+    <script src="./script.js" defer></script>
     <title>VotV Closet</title>
 </head>
 <body>
@@ -19,17 +19,22 @@
     </header>
     
         <main>
-            <div class="votv"> <p>Voices Of The Void Channel</p></div>
+        <div class="baz">
 
-            <div class="Ryad">
-                <div class="Ryad_box">
-                    <button class="b1" onclick="location.href='./info/index.html'">Информация</button>   <button class="b4" onclick="location.href='./rules/index.html'"> Правила </button>
-                    <button class="b2" onclick="location.href='./news/index.html'">Новости</button>      <button class="b5" onclick="location.href='./complaint/index.html'">Жалоба</button>
-                    <button class="b3" onclick="location.href=''">Работа</button>       <button class="b6" onclick="location.href=''">Суд</button>
-                </div>
+            <div class="form-container">
+                <form id="complaintForm">
+                    <input type="text" id="nickname" placeholder="Ваш ник и юзернейм" required>
+                    <input type="text" id="complaintAgainst" placeholder="На кого жалоба (ник и юзернейм)" required>
+                    <textarea id="description" placeholder="Опишите ситуацию" required></textarea>
+                    <button type="submit" id="submitBtn">Отправить</button>
+                </form>
             </div>
+            <p>Не забывайте про пункт правил 1.6, ложная жалоба может привести к проблемам, а также, проверяйте что вы пишите, удалить жалобу у вас не получится.</p>
+        </div>
+
             <p id="versionInfo"></p>
-            <script src="./baza.js" defer></script>
+            <script src="../baza.js" defer></script>
+
 
             <div id="modal" class="modal">
                 <div class="modal-content">
@@ -37,6 +42,7 @@
                     <p id="versionList"></p>
                 </div>
             </div>
+
         </main>
         
             <footer>
