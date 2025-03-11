@@ -126,14 +126,10 @@ main{
                     text-align: left;
                 }
     
-                button{
-                    background-color: #a5a5a5;
-                    margin-left: 22%;
-                    width: 230px;
-                    height: 30px;
-                    border: solid black 2px;
-                    border-radius: 15px 0px 15px 0px;
-                    margin-top: 20px;
+                .form-container {
+                    padding: 20px;
+                    border-radius: 8px;
+                    width: 370px;
                 }
             }
     }
