@@ -10,6 +10,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Nova+Square&display=swap" rel="stylesheet">
 
     <script src="./script.js" defer></script>
+    <script src="./script2.js" defer></script>
     <title>VotV Closet</title>
 </head>
 <body>
@@ -21,7 +22,7 @@
         <main>
             <div class="block">
                 
-                    <div class="box SB">
+                    <div id="openModal3" class="box SB">
                         <img src="../media/Untitled55_20250306232649.png"/> <p>Сержант СБ</p>
                     </div>
                     <div class="box SB">
@@ -95,6 +96,34 @@
                         Что б устроится на работу нужно нажать на блок и вписать свои данные, а после подтверждения ожидать когда с вами свяжется Отдел Кадров<br>
 
                     </p>
+                </div>
+            </div>
+
+            <div id="modal3" class="dok">
+                <div class="dok_box">
+                    <input type="text" id="nickname" placeholder="Nickname" required><br><br>
+                    <input type="text" id="tgUsername" placeholder="Tg Username" required> <br><br>
+                    <select id="profession">
+                        <option value="Сержант СБ">Сержант СБ</option>
+                        <option value="Лейтенант СБ">Лейтенант СБ</option>
+                        <option value="Полковник СБ">Полковник СБ</option>
+                        <option value="Главно Командующий СБ">Главно Командующий СБ</option>
+                        <option value="Адвокат">Адвокат</option>
+                        <option value="Прокурор">Прокурор</option>
+                        <option value="Судья">Судья</option>
+                        <option value="Препод">Препод</option>
+                        <option value="Ректор">Ректор</option>
+                        <option value="Проректор">Проректор</option>
+                        <option value="Экзаменационная комиссия">Экзаменационная комиссия</option>
+                        <option value="Отдел кадров">Админ Отдела кадров</option>
+                    </select><br>
+                        <button id="push"  type="submit">Отправить</button>
+                    <details>
+                        <summary>Инфо</summary>
+                        <p>Заполните поля и нажмите отправить, после ожидайте когда вам напишет администратор Отдела Кадров что б помочь вам с устройством на работу.</p>
+                    </details>
+
+                    <button id="closeModal3">Exid</button>
                 </div>
             </div>
 
