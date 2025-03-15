@@ -183,7 +183,7 @@ main{
                 bottom: 0;
                 right: 0;
                 margin-bottom: 35%;
-                margin-right: 60px;
+                margin-right: 20px;
             }
         }
 }
@@ -223,11 +223,10 @@ footer{
     footer{
         width: 100%;
         background-color: black;
-        position: absolute;
+        position: relative;
         bottom: 0;
         display: flex;
         color: white;
-        bottom: 0;
 
         p{
             font-size: 13px;
@@ -252,12 +251,10 @@ footer{
 
 #versionInfo{
     color: white;
-    position: absolute;
+    position: relative;
     bottom: 0;
     right: 0;
     padding: 5px;
-    bottom: 0;
-    margin-bottom: 7%;
 }
 
 @media (max-width: 600px) {
